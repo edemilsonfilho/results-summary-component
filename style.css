@@ -33,6 +33,9 @@ main {
     height: 376px;
     border-bottom-right-radius: 32px;
     border-bottom-left-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: linear-gradient(to bottom, rgba(119, 85, 255, 1), rgba(105, 67, 255, 1), rgba(47, 44, 233, 1));
 }
 
@@ -43,6 +46,43 @@ main {
     font-size: 18px;
     color: rgba(202, 201, 255, 1);
     justify-content: center;
+}
+
+.circulo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgba(77, 33, 201, 1), rgba(37, 33, 201, 0), rgba(37, 33, 201, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.circ {
+    padding-top: 24px;
+    font-size: 56px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.off-circ {
+    color: rgba(202, 201, 255, 1);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.great {
+    padding-top: 24px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.legend {
+    padding: 8px 57px 40px 58px;
+    color: rgba(202, 201, 255, 1);
 }
 
 .summary {
