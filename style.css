@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hero{
+    background-color: purple;
+}
+
+
+.reaction {
+    background-color: #ffecec;
+    color: #d9534f;
+}
+
+.memory {
+    background-color: #fff7e6;
+    color: #f0ad4e;
+}
+
+.verbal {
+    background-color: #e6fff2;
+    color: #5cb85c;
+}
+
+.visual {
+    background-color: #f0f0ff;
+    color: #5a5aa5;
+}
