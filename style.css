@@ -3,10 +3,39 @@
     margin: 0;
 }
 
-.hero{
-    background-color: purple;
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: rgb(45, 119, 204);
 }
 
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: 809px;
+}
+
+.havbar {
+    width: 375px;
+    height: 809px;
+    background-color: #ffffff;
+    flex-direction: column;
+    display: flex;
+}
+
+.hero {
+    width: 375px;
+    height: 376px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    background: linear-gradient(to bottom, rgba(119, 85, 255, 1), rgba(105, 67, 255, 1), rgba(47, 44, 233, 1));
+}
+
+.title {}
 
 .reaction {
     background-color: #ffecec;
@@ -26,4 +55,11 @@
 .visual {
     background-color: #f0f0ff;
     color: #5a5aa5;
+}
+
+.skill {
+    margin: 16px 30px 16px 30px;
+    display: flex;
+    height: 56px;
+    width: 315px;
 }
