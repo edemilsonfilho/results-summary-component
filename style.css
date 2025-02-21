@@ -134,7 +134,7 @@ main {
 }
 
 span {
-    padding-left: 124px;
+    padding-left: 110px;
     margin-right: 15px;
 }
 
@@ -183,7 +183,7 @@ p {
 
 
 
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 768px) {
     body {
         /* overflow: hidden; */
         align-items: center;
