@@ -185,6 +185,7 @@ p {
 
 @media screen and (min-width: 428px) {
     body {
+        overflow: hidden;
         align-items: center;
         justify-content: center;
         align-self: center;
