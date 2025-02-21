@@ -185,7 +185,7 @@ p {
 
 @media screen and (min-width: 428px) {
     body {
-        overflow: hidden;
+        /* overflow: hidden; */
         align-items: center;
         justify-content: center;
         align-self: center;
@@ -198,8 +198,8 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 1440px;
-        height: 1080px;
+        width: 100vw;
+        height: 100vh;
         font-family: "Hanken Grotesk", serif;
     }
 
